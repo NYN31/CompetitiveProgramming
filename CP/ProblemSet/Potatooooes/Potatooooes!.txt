@@ -1,0 +1,38 @@
+Author: Md Sajjad Hosen Noyon                                                     
+                                Potatooooooo!
+ 
+Suppose, the price of vegetables is very high in the market at present. So Mr. X wants to buy and sell only potatoes. Potato prices in the market are unstable. Now Mr. X wants to buy and sell potatoes in such a way that its profit is maximum.
+ 
+The price of potatoes will change n times within a day. Consider we're in another world and there has no night. So, Mr. X has to choose two different times such that he will first buy and then sell potatoes. More formally, if you are given an array of size n and you have to choose two indexes i and j (i < j). The i’th price is for buy product and j’th price is for sell product.
+ 
+Suppose, the price of potatoes will change for 9 times,  you are given the price of potatoes at different times which are 7 8 9 5 7 6 11 9 2 and the maximum profit will be if you select index 4 and index 7 and your profit will be 6 which is maximum.
+ 
+Mr. X doesn’t know how to find out the maximum profit. And he comes to you for helping him. So you have to find out the maximum profit. It is guaranteed that there is no loss. 
+ 
+Input: At first line you are given a test case T (1 <= T <= 5). Then you are given an integer n (2 <= n <= 1000000) which are the prices of different times and in the next line you are given n integers a1, a2, a3, ….. , an (1 <= ai <= 1000000000) which are prices of potatoes.
+ 
+Output: Print an integer for each case which is the maximum profit.
+ 
+Sample input :
+5
+5
+6 1 6 5 3
+7
+1 3 3 7 2 8 2 
+3
+1 2 1
+8
+1 1 2 2 4 5 6 7
+2
+1 7
+ 
+Sample output :
+5
+7
+1
+6
+6
+ 
+ 
+ 
+
