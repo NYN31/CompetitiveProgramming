@@ -12,14 +12,14 @@ int len;
 
 int length(struct node *root)
 {
-    int count = 0;
+    int cnt = 0;
     struct node* temp;
     temp = root;
     while(temp!=NULL){
-        count++;
+        cnt++;
         temp = temp->link;
     }
-    return count;
+    return cnt;
 }
 
 
